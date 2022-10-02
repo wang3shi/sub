@@ -5,125 +5,125 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 1, server: 43.134.199.221, port: 443, type: vmess, uuid: e5af0cad-295c-37b2-b601-f35d13f6b1bb, alterId: 32, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: www.gov.hk}}}
-  - {name: 2, server: 20.233.12.144, port: 443, type: vmess, uuid: 4893ed3e-8a5f-48dc-aa1e-bbc2e67a065b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /}}
-  - {name: 3, server: 3.sg.zz.xxxxx.x-t-fuckword.network, port: 36679, type: vmess, uuid: 244effd9-0204-3c4a-8537-0dca4e5fd9b5, alterId: 0, cipher: auto, tls: false}
-  - {name: 4, server: 42.186.175.8, port: 443, type: vmess, uuid: a928a26c-2adb-45fe-e57d-8a27dade309e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: sgarm.ptuu.cf}}}
-  - {name: 5, server: 42.186.175.8, port: 443, type: vmess, uuid: 2962b6dc-8de5-40c2-f5fb-5039f72d9a95, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: sgarm.ptuu.ml}}}
-  - {name: 6, server: 4.3.1.fuckppppp.today, port: 58418, type: vmess, uuid: 244effd9-0204-3c4a-8537-0dca4e5fd9b5, alterId: 0, cipher: auto, tls: false}
-  - {name: 7, server: 169.197.141.14, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: 8, server: 138.68.90.231, port: 8080, type: vmess, uuid: 294ffdc3-5942-45ae-a154-dc6c92eacf1d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: 138.68.90.231}}}
-  - {name: 9, server: emea-ru-mow-01-edgecast.qdns.live, port: 2053, type: vmess, uuid: 935dfe1a-c512-31bc-9e97-b1ab73826047, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: emea-ru-mow-01-edgecast.qdns.live}}}
-  - {name: 10, server: taobao.babazhuji.com, port: 443, type: vmess, uuid: 2a4918de-adce-4c4e-aa00-88a4227cf6ea, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /didi, headers: {Host: taobao.babazhuji.com}}}
+  - {name: 🇸🇬 SG 新加坡, server: 42.186.175.8, port: 443, type: vmess, uuid: 2962b6dc-8de5-40c2-f5fb-5039f72d9a95, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ray, headers: {Host: sgarm.ptuu.ml}}}
+  - {name: 🇺🇲 US 美国, server: gaio.miaoge110.cf, port: 443, type: vmess, uuid: 4893ed3e-8a5f-48dc-aa1e-bbc2e67a065b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /jcnf, headers: {Host: gaio.miaoge110.cf}}}
+  - {name: 🇺🇲 US 美国 2, server: 210.75.24.222, port: 443, type: vmess, uuid: 33653796-feef-43fd-e7cc-1adccd79b7c7, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /123, headers: {Host: usamd.ptuu.gq}}}
+  - {name: PL 波兰, server: 5.188.108.208, port: 21008, type: vmess, uuid: 80b5645a-86b7-48af-9252-977ba807a338, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇯🇵 JP+日本, server: 210.75.24.222, port: 443, type: vmess, uuid: 9bdac558-1d2b-425b-f0e7-445d38be025e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /123, headers: {Host: jpamd.fineyoo.cf}}}
+  - {name: 🇺🇲 US+美国, server: 169.197.141.14, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: 🇯🇵 JP+日本 2, server: 210.75.24.220, port: 443, type: vmess, uuid: bd5ee249-fe7b-4669-a6d9-b3f5eecb98e6, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /123, headers: {Host: jparm.fineyoo.cf}}}
+  - {name: 🇭🇰 HK 香港, server: 4.3.1.fuckppppp.today, port: 58418, type: vmess, uuid: 244effd9-0204-3c4a-8537-0dca4e5fd9b5, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇲 US+美国 2, server: 169.197.141.14, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇰🇷 KR 韩国, server: riop.miaoge110.cf, port: 443, type: vmess, uuid: 4893ed3e-8a5f-48dc-aa1e-bbc2e67a065b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: riop.miaoge110.cf}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 1
-      - 2
-      - 3
-      - 4
-      - 5
-      - 6
-      - 7
-      - 8
-      - 9
-      - 10
+      - 🇸🇬 SG 新加坡
+      - 🇺🇲 US 美国
+      - 🇺🇲 US 美国 2
+      - PL 波兰
+      - 🇯🇵 JP+日本
+      - 🇺🇲 US+美国
+      - 🇯🇵 JP+日本 2
+      - 🇭🇰 HK 香港
+      - 🇺🇲 US+美国 2
+      - 🇰🇷 KR 韩国
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 1
-      - 2
-      - 3
-      - 4
-      - 5
-      - 6
-      - 7
-      - 8
-      - 9
-      - 10
+      - 🇸🇬 SG 新加坡
+      - 🇺🇲 US 美国
+      - 🇺🇲 US 美国 2
+      - PL 波兰
+      - 🇯🇵 JP+日本
+      - 🇺🇲 US+美国
+      - 🇯🇵 JP+日本 2
+      - 🇭🇰 HK 香港
+      - 🇺🇲 US+美国 2
+      - 🇰🇷 KR 韩国
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 1
-      - 2
-      - 3
-      - 4
-      - 5
-      - 6
-      - 7
-      - 8
-      - 9
-      - 10
+      - 🇸🇬 SG 新加坡
+      - 🇺🇲 US 美国
+      - 🇺🇲 US 美国 2
+      - PL 波兰
+      - 🇯🇵 JP+日本
+      - 🇺🇲 US+美国
+      - 🇯🇵 JP+日本 2
+      - 🇭🇰 HK 香港
+      - 🇺🇲 US+美国 2
+      - 🇰🇷 KR 韩国
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 1
-      - 2
-      - 3
-      - 4
-      - 5
-      - 6
-      - 7
-      - 8
-      - 9
-      - 10
+      - 🇸🇬 SG 新加坡
+      - 🇺🇲 US 美国
+      - 🇺🇲 US 美国 2
+      - PL 波兰
+      - 🇯🇵 JP+日本
+      - 🇺🇲 US+美国
+      - 🇯🇵 JP+日本 2
+      - 🇭🇰 HK 香港
+      - 🇺🇲 US+美国 2
+      - 🇰🇷 KR 韩国
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 1
-      - 2
-      - 3
-      - 4
-      - 5
-      - 6
-      - 7
-      - 8
-      - 9
-      - 10
+      - 🇸🇬 SG 新加坡
+      - 🇺🇲 US 美国
+      - 🇺🇲 US 美国 2
+      - PL 波兰
+      - 🇯🇵 JP+日本
+      - 🇺🇲 US+美国
+      - 🇯🇵 JP+日本 2
+      - 🇭🇰 HK 香港
+      - 🇺🇲 US+美国 2
+      - 🇰🇷 KR 韩国
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 1
-      - 2
-      - 3
-      - 4
-      - 5
-      - 6
-      - 7
-      - 8
-      - 9
-      - 10
+      - 🇸🇬 SG 新加坡
+      - 🇺🇲 US 美国
+      - 🇺🇲 US 美国 2
+      - PL 波兰
+      - 🇯🇵 JP+日本
+      - 🇺🇲 US+美国
+      - 🇯🇵 JP+日本 2
+      - 🇭🇰 HK 香港
+      - 🇺🇲 US+美国 2
+      - 🇰🇷 KR 韩国
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 1
-      - 2
-      - 3
-      - 4
-      - 5
-      - 6
-      - 7
-      - 8
-      - 9
-      - 10
+      - 🇸🇬 SG 新加坡
+      - 🇺🇲 US 美国
+      - 🇺🇲 US 美国 2
+      - PL 波兰
+      - 🇯🇵 JP+日本
+      - 🇺🇲 US+美国
+      - 🇯🇵 JP+日本 2
+      - 🇭🇰 HK 香港
+      - 🇺🇲 US+美国 2
+      - 🇰🇷 KR 韩国
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -146,16 +146,16 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 1
-      - 2
-      - 3
-      - 4
-      - 5
-      - 6
-      - 7
-      - 8
-      - 9
-      - 10
+      - 🇸🇬 SG 新加坡
+      - 🇺🇲 US 美国
+      - 🇺🇲 US 美国 2
+      - PL 波兰
+      - 🇯🇵 JP+日本
+      - 🇺🇲 US+美国
+      - 🇯🇵 JP+日本 2
+      - 🇭🇰 HK 香港
+      - 🇺🇲 US+美国 2
+      - 🇰🇷 KR 韩国
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
