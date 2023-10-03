@@ -1,1 +1,6 @@
 vless://d342d11e-d424-4583-b36e-524ab1f0afa4@172.67.207.6:8080?encryption=none&security=none&fp=random&type=ws&host=hello-world.java-wanglei.workers.dev&path=%2F%3Fed%3D2048#hello-world
+vless://d342d11e-d424-4583-b36e-524ab1f0afa4@104.19.169.75:80?encryption=none&security=none&fp=random&type=ws&host=hello-world.java-wanglei.workers.dev&path=%2F%3Fed%3D2048#104.19.169.75
+vless://d342d11e-d424-4583-b36e-524ab1f0afa4@www.whoer.net:8880?encryption=none&security=none&fp=random&type=ws&host=hello-world.java-wanglei.workers.dev&path=%2F%3Fed%3D2048#www.whoer.net
+vless://d342d11e-d424-4583-b36e-524ab1f0afa4@www.udacity.com:8080?encryption=none&security=none&fp=random&type=ws&host=hello-world.java-wanglei.workers.dev&path=%2F%3Fed%3D2048#www.udacity.com
+vless://d342d11e-d424-4583-b36e-524ab1f0afa4@www.csgo.com:8080?encryption=none&security=none&fp=random&type=ws&host=hello-world.java-wanglei.workers.dev&path=%2F%3Fed%3D2048#www.csgo.com
+vless://d342d11e-d424-4583-b36e-524ab1f0afa4@time.is:8080?encryption=none&security=none&fp=random&type=ws&host=hello-world.java-wanglei.workers.dev&path=%2F%3Fed%3D2048#time.is
